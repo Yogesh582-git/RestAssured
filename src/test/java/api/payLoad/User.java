@@ -9,7 +9,9 @@ public class User {
 	private String email;
 	private String password;
 	private String userStatus;
+	private String testField;
 
+	
 	public int getId() {
 		return id;
 	}
