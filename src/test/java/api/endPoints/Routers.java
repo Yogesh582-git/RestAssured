@@ -6,10 +6,10 @@ public class  Routers {
 //  put   : https://petstore.swagger.io/v2/user/username
 //  delete: https://petstore.swagger.io/v2/user/username
 
-	private static String base_url = "https://petstore.swagger.io/v2";
-	private static String post_url = base_url + "/user";
-	private static String get_url = base_url + "/user/{username}";
-	private static String put_url = base_url + "/user/{username}";
-	private static String del_url = base_url + "/user/{username}";
+	public static String base_url = "https://petstore.swagger.io/v2";
+	public static String post_url = base_url + "/user";
+	public static String get_url = base_url + "/user/{username}";
+	public static String put_url = base_url + "/user/{username}";
+	public static String del_url = base_url + "/user/{username}";
 
 }

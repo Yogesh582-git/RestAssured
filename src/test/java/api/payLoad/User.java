@@ -8,10 +8,19 @@ public class User {
 	private String lastName;
 	private String email;
 	private String password;
-	private String userStatus;
-	private String testField;
+	private int  userStatus;
+	private String phone;
+	
 
 	
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
 	public int getId() {
 		return id;
 	}
@@ -60,12 +69,12 @@ public class User {
 		this.password = password;
 	}
 
-	public String getUserStatus() {
+	public int getUserStatus() {
 		return userStatus;
 	}
 
-	public void setUserStatus(String userStatus) {
-		this.userStatus = userStatus;
+	public void setUserStatus(int string) {
+		this.userStatus = string;
 	}
 
 }
